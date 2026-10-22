@@ -31,11 +31,12 @@ Repository: https://github.com/stashapp/plugins-repo-template
 
 ## Contributing
 
-Submit a PR to add your plugin, theme, userscript and other utility script to the repository. 
+Submit a PR to add your plugin, theme, userscript and other utility script to the repository.
 
 ### LLM-assisted contributions
 
 LLM-assisted contributions are allowed under the following conditions:
+
 - LLM use is openly disclosed.
 - Code is reviewed by a human.
 - Human testing and validation was performed.
@@ -48,3 +49,7 @@ LLM-assisted contributions are allowed under the following conditions:
 After the 14 days, if nobody takes up the development they will be moved to the [archive](./archive) directory. This will automatically remove plugins from the CommunityScripts source index.
 
 Maintainers are expected to show commitment and demonstrate meaningful effort to maintain the code.
+
+## Development standard
+
+This repository adopts version 0.4.0 of the shared development standard. Read the [English guide](docs/en/development-standard.md) or [Russian guide](docs/ru/development-standard.md). The local toolkit checks staged secrets, changed-file formatting and bilingual documentation before merge. Existing product CI remains in place. Adoption is in progress; product acceptance and legacy-document translation are recorded separately in .repo-policy.json.
